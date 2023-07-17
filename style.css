@@ -1,0 +1,42 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+    cursor: grabbing;
+    background: linear-gradient(to bottom, #fff 0%, #76905a 100%)
+}
+.container{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    width: auto;
+    height: auto;
+}
+.image-heading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(200%, -50%);
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 2.0);
+}
+.logo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 80%;
+}
+.logo-heading{
+  position: absolute;
+  left: 5%;
+  font-family: Monospace;
+}
